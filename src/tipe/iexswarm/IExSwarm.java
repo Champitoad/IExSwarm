@@ -50,7 +50,7 @@ public class IExSwarm extends Activity
 
     // Bluetooth
 	private final int FAILED = 0, SUCCEEDED = 1; // Messages used by the connection Handler to manage the connection's state
-	private final String DEVICE_NAME = "ArchYvon"; // Remote device's name
+	private final String DEVICE_NAME = "HC-06"; // Remote device's name
 	private final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB"); // Identifier of the application for the remote device
     private int REQUEST_ENABLE_BT = 1; // Value used to identify a request to enable the Bluetooth adapter
 
